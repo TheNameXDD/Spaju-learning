@@ -1,0 +1,18 @@
+site_name: Заголовок
+repo_url: https://github.com/TheNameXDD/Spaju-learning
+
+theme:
+  name: material
+  language: ru
+  custom_dir: theme
+
+plugins:
+  - search:
+      lang:
+        - ru
+        - en
+
+  - git-committers:
+      repository: TheNameXDD/Spaju-learning
+      branch: main
+      token: your token

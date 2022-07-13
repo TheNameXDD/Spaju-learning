@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block styles %}
+{{ super() }}
+
+<link rel="stylesheet" href="{{ 'styles/article.css' | url }}">
+<link rel="stylesheet" href="{{ 'styles/contributors.css' | url }}">
+
+{% endblock %}
+
+{% block content %}
+{{ super() }}
+
+<div class="contributors">
+  <h2>Вклад внесли <span>{{ committers|length }}</span></h2>
+  <ul>
+    {%- for user in committers -%}
+    <li>
+      <a href="{{ user.repos }}" title="{{ user.name if user.name else user.login }}" target="_blank">
+        <img src="{{ user.avatar }}?size=32" alt="{{ user.name if user.name else user.login }}">
+      </a>
+    </li>
+    {%- endfor -%}
+  </ul>
+</div>
+
+{% endblock %}
+
+{% block footer %}
+{% endblock %}
