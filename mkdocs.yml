@@ -15,4 +15,4 @@ plugins:
   - git-committers:
       repository: TheNameXDD/Spaju-learning
       branch: main
-      token: your token
+      token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
