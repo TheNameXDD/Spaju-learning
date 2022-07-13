@@ -19,10 +19,5 @@ plugins:
       token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
 
 nav:
-    - На главную: https://spaju.engineering/learning/
-    - Внести вклад: editing/
-    
-    - Робототехника:
-          - ABB робототехника:
-                - Про ABB роботов:
-                - Про RobotStudio:
+  - На главную: https://spaju.engineering/learning/
+  - Внести вклад: editing/
