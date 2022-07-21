@@ -25,7 +25,7 @@ nav:
     - Все о роботах:
       - Что такое робот?: robotics/what-is-robot/index.md
       - Промышленные роботы: robotics/what-is-robot/industrial-robots/index.md
-      - Роботы везде!: robotics/what-is-robot/robots-everywhere
+      - Роботы везде!: robotics/what-is-robot/robots-everywhere/index.md
     - ABB робототехника:
       - Про ABB роботов: robotics/abb/about/index.md
       - RobotStudio: robotics/abb/robotstudio/index.md
