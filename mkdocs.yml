@@ -21,3 +21,10 @@ plugins:
 nav:
   - На главную: https://spaju.engineering/learning/
   - Внести вклад: editing/index.md
+  - Робототехника:
+    - Что такое робот?: robotics/what-is-robot/index.md
+      - Промышленные роботы: robotics/what-is-robot/industrial-robots/index.md
+      - Типы роботов: robotics/robots-types
+    - ABB робототехника:
+      - Про ABB роботов: robotics/abb/about/index.md
+      - RobotStudio: robotics/abb/robotstudio/index.md
