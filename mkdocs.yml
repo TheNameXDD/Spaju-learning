@@ -22,9 +22,10 @@ nav:
   - На главную: https://spaju.engineering/learning/
   - Внести вклад: editing/index.md
   - Робототехника:
-    - О роботах:
+    - Все о роботах:
       - Что такое робот?: robotics/what-is-robot/index.md
       - Промышленные роботы: robotics/what-is-robot/industrial-robots/index.md
+      - Роботы везде!: robotics/what-is-robot/robots-everywhere
     - ABB робототехника:
       - Про ABB роботов: robotics/abb/about/index.md
       - RobotStudio: robotics/abb/robotstudio/index.md
